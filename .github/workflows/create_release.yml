@@ -20,7 +20,6 @@ jobs:
       - name: Print Semantic version
         run: echo "semantic_version for branch '${{ github.base_ref }}' is '${{ steps.branch_check.outputs.semantic_version }}'"
     outputs:
-      revision_number: ${{ steps.branch_check.outputs.revision_number }}
       semantic_version: ${{ steps.branch_check.outputs.semantic_version }}
   ci-ct-job-for-rust-libraries:
     runs-on: ubuntu-latest
