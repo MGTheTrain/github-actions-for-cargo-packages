@@ -1,5 +1,5 @@
-use uuid::Uuid;
 use chrono::{DateTime, Utc};
+use uuid::Uuid;
 
 pub struct UserResponseDto {
     pub user_id: Option<Uuid>,

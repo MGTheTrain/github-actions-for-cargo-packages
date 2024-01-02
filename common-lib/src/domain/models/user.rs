@@ -1,7 +1,7 @@
-use validator::{Validate, ValidationError};
-use uuid::Uuid;
 use chrono::{DateTime, Utc};
 use serde::Deserialize;
+use uuid::Uuid;
+use validator::{Validate, ValidationError};
 
 #[derive(Debug, Validate, Deserialize)]
 pub struct User {
