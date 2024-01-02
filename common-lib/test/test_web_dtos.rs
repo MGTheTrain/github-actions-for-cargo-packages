@@ -1,7 +1,7 @@
-use validator::{Validate, ValidationError};
 use chrono::{DateTime, Utc};
-use uuid::Uuid;
 use common_lib::web::dtos::user_request_dto::UserRequestDto;
+use uuid::Uuid;
+use validator::{Validate, ValidationError};
 
 #[cfg(test)]
 mod tests {
