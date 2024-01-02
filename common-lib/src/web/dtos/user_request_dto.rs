@@ -1,5 +1,5 @@
-use validator::{Validate, ValidationError};
 use serde::Deserialize;
+use validator::{Validate, ValidationError};
 
 #[derive(Debug, Validate, Deserialize)]
 pub struct UserRequestDto {
